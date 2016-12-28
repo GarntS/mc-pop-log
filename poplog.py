@@ -13,7 +13,7 @@ def appendLog(host, time, pop):
 	with open(fileName, "a") as logFile:
 		# If the file is empty add the column names
 		if not os.stat(fileName).st_size > 0:
-			logFile.write('"time","pos"')
+			logFile.write('"time","pop"')
 
 		# Write the data to the file
 		logFile.write("\n"+ '"'+ time+ '",'+ str(pop))
