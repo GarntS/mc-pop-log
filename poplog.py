@@ -58,7 +58,7 @@ def main():
 
 	while 1:
 		getPopulations()
-		time.sleep(60)
+		time.sleep(300)
 
 # Run the main.
 main()
